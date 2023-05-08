@@ -1,6 +1,6 @@
 public interface RobotBuilder {
-    void buildRobotCabeza();
-    void buildRobotTorzo();
-    void buildRobotArmas();
-    void buildRobotPiernas();
+    String buildRobotCabeza(String params);
+    String buildRobotTorzo(String params);
+    String buildRobotArmas(String params);
+    String buildRobotPiernas(String params);
 }
